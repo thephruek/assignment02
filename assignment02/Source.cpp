@@ -2,9 +2,9 @@
 int main()
 {
 	int a, b, c, total;
-	scanf("%d", &a);
-	scanf("%d", &b);
-	scanf("%d", &c);
+	scanf_s("%d", &a);
+	scanf_s("%d", &b);
+	scanf_s("%d", &c);
 	total = a + b + c;
 	if (total >= 80 && total <= 100)
 	{
